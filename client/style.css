@@ -75,8 +75,8 @@ header {
   background-image: url('/client/assets/images/bg-pattern-1.svg'),
   url('/client/assets/images/bg-pattern-2.svg');
   background-repeat: no-repeat, no-repeat;
-  background-position: right 109.7% top 50%, left 103.6% bottom 30%;
-  background-size: 270px 215px, 142px 113px;
+  background-position: right calc(100% - -117px) top 50%, left calc(100% + 39px) bottom 30%;
+  background-size: 20vw auto, 10vw auto;
 }
 
 ul {
