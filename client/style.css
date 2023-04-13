@@ -40,6 +40,8 @@
 
 body {
   font-family: 'Manrope', sans-serif;
+  /* to be deleted later */
+  max-width: 1440px;
 }
 
 h1, h2, h3 {
@@ -69,13 +71,25 @@ header {
   font-size: var(--fs-400);
   line-height: var(--fs-600);
   font-weight: var(--fw-bold);
+  padding: 3rem 6rem;
+  background-image: url('/client/assets/images/bg-pattern-1.svg'),
+  url('/client/assets/images/bg-pattern-2.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 109.7% top 50%, left 103.6% bottom 30%;
+  background-size: 270px 215px, 142px 113px;
 }
 
 ul {
   margin-inline: auto;
-  width: 80%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child:hover,
+li:last-child:focus {
+  color: var(--clr-green);
+  cursor: pointer;
 }
 
 .underline {
@@ -87,7 +101,7 @@ ul {
 
 .cta {
   text-align: center;
-  width: 40rem;
+  max-width: 40rem;
   gap: 1rem;
   margin-inline: auto;
 }
@@ -106,7 +120,7 @@ button {
   font-weight: inherit;
   line-height: var(--fs-400);
   font-size: inherit;
-  padding: 1rem 1.5rem;
+  padding: 1rem var(--fs-500);
   cursor: pointer;
 }
 
@@ -123,9 +137,16 @@ main {
   background-color: var(--clr-light-purple);
 }
 
+.founder-info {
+  background-image: url('/client/assets/images/bg-pattern-3.svg');
+  background-repeat: no-repeat;
+  background-size: 173px 137px;
+}
 
 
 .founder-cta {
   background: var(--clr-dark-purple);
 }
+
+
 
