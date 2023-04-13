@@ -107,6 +107,14 @@ button {
   line-height: var(--fs-400);
   font-size: inherit;
   padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  background: none;
+  color: var(--clr-green);
+  border: 1px solid var(--clr-green);
 }
 
 
