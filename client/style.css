@@ -252,5 +252,21 @@ main {
   background: var(--clr-dark-purple);
 }
 
+.footer-grid {
+  place-items: center;
+  margin-bottom: 6.875rem;
+  gap: 3.625rem;
+}
+
+
+.social-media-svgs {
+  display: flex;
+  column-gap: 1.75rem;
+}
+
+.social-media-svgs:hover,
+.social-media-svgs:focus {
+  cursor: pointer;
+}
 
 
