@@ -49,6 +49,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   /* to be deleted later */
+  /* margin: 0 auto; */
   max-width: 1440px;
 }
 
@@ -245,11 +246,52 @@ main {
   background-image: url('/client/assets/images/bg-pattern-3.svg');
   background-repeat: no-repeat;
   background-size: 173px 137px;
+  /* position: relative; */
+  /* width: 100%;
+  height: 100%; */
+  margin: 0 10.3rem 15rem;
+  /* display: grid; */
+}
+
+.founder-img {
+  max-width: 30rem;
+  position: relative;
+}
+
+.founder-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
 .founder-cta {
+  display: grid;
+  position: relative;
+  left: 23.875rem;
+  top: 11rem;
+  gap: var(--fs-600);
   background: var(--clr-dark-purple);
+  color: var(--cl-white-neutral);
+  padding: var(--fs-850);
+  width: 65%;
+  /* max-width: 45rem; */
+}
+
+.founder-cta h3 {
+  font-weight: 600;
+  font-size: var(--fs-800);
+  line-height: var(--fs-850);
+}
+
+.founder-cta p {
+  line-height: var(--fs-600);
+  font-weight: 400;
+  font-size: var(--fs-400);
+}
+
+.founder-cta button {
+  width: 31.5%;
 }
 
 .footer-grid {
