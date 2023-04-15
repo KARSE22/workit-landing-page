@@ -49,8 +49,8 @@
 body {
   font-family: 'Manrope', sans-serif;
   /* to be deleted later */
-  /* margin: 0 auto; */
-  max-width: 1440px;
+  /* margin: 0 auto;
+  max-width: 1440px; */
 }
 
 h1, h2, h3 {
@@ -243,9 +243,6 @@ main {
 
 
 .founder-info {
-  background-image: url('/client/assets/images/bg-pattern-3.svg');
-  background-repeat: no-repeat;
-  background-size: 173px 137px;
   border: 3px solid red;
   /* position: relative; */
   /* width: 100%;
@@ -273,11 +270,30 @@ main {
   left: 32.5%;
   top: 41%;
   gap: var(--fs-600);
-  background: var(--clr-dark-purple);
+  background-color: var(--clr-dark-purple);
   color: var(--cl-white-neutral);
   padding: var(--fs-850);
   max-width: 65%;
 }
+
+.founder-cta button::after {
+  content: url('/client/assets/images/bg-pattern-3.svg');
+  width: 173px;
+  height: 137px;
+  position: absolute;
+  /* top: 63%;
+  left: 65%; */
+  bottom: 3%;
+  right: 12%
+}
+
+/* .founder-cta img {
+  position: absolute;
+  top: 19.01rem;
+  right: calc(65% - 31.9rem);
+  width: 173px;
+  height: 137px;
+} */
 
 .founder-cta h3 {
   font-weight: 600;
