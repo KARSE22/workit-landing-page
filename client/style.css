@@ -152,7 +152,7 @@ li:last-child:focus {
 button {
   background: var(--clr-green);
   color: var(--clr-dark-purple);
-  border: none;
+  border: 1px solid var(--clr-green);
   font-weight: inherit;
   line-height: var(--fs-400);
   font-size: inherit;
@@ -164,7 +164,6 @@ button:hover,
 button:focus-visible {
   background: none;
   color: var(--clr-green);
-  border: 1px solid var(--clr-green);
 }
 
 
@@ -240,7 +239,6 @@ main {
   font-size: var(--fs-400);
   line-height: var(--fs-600);
 }
-
 
 .founder-info {
   border: 3px solid red;
